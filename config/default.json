@@ -5,7 +5,7 @@
     "dbname": "PetCare"
   },
   "logger": {
-    "type": "file",
+    "type": "console",
     "level": "debug"
   },
   
