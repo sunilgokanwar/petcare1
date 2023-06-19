@@ -1,0 +1,20 @@
+{
+  "serverPort": 8080,
+  "mongoDb": {
+    "port": 27017,
+    "dbname": "PetCare"
+  },
+  "logger": {
+    "type": "file",
+    "level": "debug"
+  },
+  
+  "token": {
+    "audience": "node-boiler",
+    "secret": "my-secrete",
+    "issuer": "NodeBoilerPlate"
+  },
+  "saltRounds": 10
+}
+
+
